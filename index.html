@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameNews Hub | Всі новини ігор</title>
+    <style>
+        body {
+            background-color: #0f0f0f;
+            color: #ffffff;
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 40px 0;
+            border-bottom: 2px solid #333;
+        }
+        h1 { color: #00ff88; text-transform: uppercase; letter-spacing: 2px; }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #1a1a1a;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s;
+            border: 1px solid #333;
+        }
+        .card:hover { transform: translateY(-5px); border-color: #00ff88; }
+        .card img { width: 100%; height: 180px; object-fit: cover; }
+        .card-content { padding: 15px; }
+        .card-title { font-size: 1.2rem; margin-bottom: 10px; color: #00ff88; }
+        .card-desc { font-size: 0.9rem; color: #ccc; line-height: 1.4; }
+        .btn {
+            display: inline-block;
+            margin-top: 10px;
+            color: #0f0f0f;
+            background: #00ff88;
+            padding: 8px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>GameNews Hub</h1>
+    <p>Останні події зі світу Block Strike, Minecraft та мобільного геймінгу</p>
+</header>
+
+<div class="container" id="news-container">
+    <!-- Новини з'являться тут автоматично -->
+    <p style="text-align: center;">Завантаження новин...</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+  </html>
+  
