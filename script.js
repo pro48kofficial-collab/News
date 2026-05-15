@@ -16,7 +16,7 @@ const myNews = [
     {
         title: "Грандіозна сходка в Block Strike!",
         date: "10.05.2026",
-        desc: "Сьогодні проводимо мега-сходку на карті сервісу. Чекаю всіх підписників @pro48k_bs!",
+        desc: "Сьогодні проводимо мега-сходку на новому режимі. Чекаю всіх підписників @pro48k_bs!",
         image: "IMG_20260510_185037_033.jpg", 
         link: "https://t.me/pro48k_bs"
     },
@@ -32,7 +32,7 @@ const myNews = [
         date: "05.05.2026",
         desc: "Додав нові рівні та систему прокачки. Завантажуйте на GitHub!",
         image: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=500",
-        link: "https://github.com/pro48kofficial-collab/ChickenClick-"
+        link: "https://pro48kofficial-collab.github.io/ChickenClick-/"
     }
 ];
 
